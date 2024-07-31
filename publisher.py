@@ -7,8 +7,8 @@ from datetime import datetime, timezone
 import json
 import sys
 
-#uuid1 = uuid.uuid1()
-uuid1 = "machine1"
+uuid1 = uuid.uuid1()
+#uuid1 = "machine1"
 
 sensor1_time = int(sys.argv[1])
 sensor2_time = int(sys.argv[2])
